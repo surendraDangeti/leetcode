@@ -1,0 +1,3 @@
+let data = [1,[[5],9,12],9,]
+let tempData = data.toString()
+console.log(tempData.split(',').map((item)=> Number(item)))
