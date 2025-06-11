@@ -20,3 +20,44 @@ function flattenArray(arr, result = []) {
 let data = [1, [[5], 9, 12], 9];
 console.log(flattenArray(data)); // [1, 5, 9, 12, 9]
 
+
+
+
+
+
+ find the longest consecutive sequence starting from 1. For the given array
+
+let k = [3, 200, 2, 50, 1, 8, 6, 4];
+let j = [];
+let set = new Set(k);
+
+for (let i = 1; ; i++) {
+    if (set.has(i)) {
+        j.push(i);
+    } else {
+        break;
+    }
+}
+
+console.log(j[j.length - 1]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
